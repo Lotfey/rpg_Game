@@ -7,10 +7,10 @@ Some quick theoretical lists to get started
 
 ### Classes 
 
-	- Warrior: highest hit points 
-	- Wizard: use magic
-	- cleric: use support magic
-	- rogue:  highest consistent melee/ ranged damage
+	- Warrior: HP growth 19: highest damage reduction 
+	- Wizard: HP growth 9: use magic
+	- cleric: HP growth 14: use support magic
+	- rogue: HP Growth 14:highest consistent melee/ ranged damage
 
 ### Leveling system
 	- Get stats based on classes
