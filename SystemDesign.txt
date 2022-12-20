@@ -1,0 +1,25 @@
+#System design
+
+//classe level
+
+warior:: heary, deal alot of damage, use best armor, highest hit point 
+wizard:: cast spell magic, dialogue
+cleric ::uses support magic
+
+rogue highestconsistent melle/ ranged damage
+
+// shop system-
+
+
+//
+equipment 
+
+// consumable
+
+battle system- turm based 
+world level 
+		different mosters 
+		
+		
+common element for all classes 
+hit point, hp
