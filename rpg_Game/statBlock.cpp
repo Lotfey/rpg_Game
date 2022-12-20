@@ -16,4 +16,10 @@ statType statBlock::getIntellect()
 {
 	return mIntellect;
 }
+void statBlock::increaseStats(statType s, statType i)
+{
+	mStrength += s;
+	mIntellect += i;
+
+}
 ;

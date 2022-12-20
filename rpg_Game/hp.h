@@ -1,5 +1,9 @@
 #pragma once
-#include"hitpointTypes.h" // uint16_t
+
+#include<cstdint>
+// specific variable type for the game
+typedef std::uint16_t hpType;
+
 class hp 
 {
 public:

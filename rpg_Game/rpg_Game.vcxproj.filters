@@ -36,18 +36,15 @@
     <ClCompile Include="statBlock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LevelSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hitpointTypes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Warrior.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="statType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="statBlock.h">
@@ -63,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="allClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,11 @@
 #include "Rogue.h"
 
-Rogue::Rogue() :hp(HPGROWTH, HPGROWTH), statBlock(BASEDSTRENGHT, BASEDINTELLECT)
+Rogue::Rogue() :hp(BASEHP, BASEHP), statBlock(BASESTRENGHT, BASEINTELLECT)
 {
+}
+
+void Rogue::LevelUp()
+{
+	setMaxHp(HPGROWTH + getMaxHp());
+	increaseStats(STRENGHTGROWTH, INTELLECTGROWTH);
 }
