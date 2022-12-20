@@ -9,8 +9,8 @@ Some quick theoretical lists to get started
 
 	- Warrior: HP growth 19: highest damage reduction 
 	- Wizard: HP growth 9: use magic
-	- cleric: HP growth 14: use support magic
-	- rogue: HP Growth 14:highest consistent melee/ ranged damage
+	- Cleric: HP growth 14: use support magic
+	- Rogue: HP Growth 14:highest consistent melee/ ranged damage
 
 ### Leveling system
 	- Get stats based on classes
