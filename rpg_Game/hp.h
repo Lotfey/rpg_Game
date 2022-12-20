@@ -3,15 +3,26 @@
 class hp 
 {
 public:
-	//returnd true if set successfully 
-	bool setMaxHp(hpType newMaxHp);
-	void takeDamage(hpType damage);
-	void heal(hpType amount);
+	//constructor
+	hp();
+	hp(hpType cHP, hpType mHp);
 
 	//getters
 	hpType getMaxHp();
 	hpType getCurrentHp();
 	// setter
+
+	//returnd true if set successfully 
+	bool setMaxHp(hpType newMaxHp);
+
+	// reduce current hp from a taken damage
+	void takeDamage(hpType damage);
+
+	// heal an amount hp to the current hp
+	void heal(hpType amount);
+
+	//deconstructor 
+	~hp() = default;
 
 private:
 	// sheil will be included later on...

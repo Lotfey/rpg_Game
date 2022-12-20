@@ -1,25 +1,29 @@
-#System design
+# READ ME
+System design of a simple RPG game in C++ from scratch. The implementation is going to be logic and turn-based, so there is no 3D rendering or animation involved. The sole purpose of this project is to work with almost every C++ element for software development such as software design, architecture, classes, and inheritance ... 
 
-//classe level
+## design in mind 
 
-warior:: heary, deal alot of damage, use best armor, highest hit point 
-wizard:: cast spell magic, dialogue
-cleric ::uses support magic
+Some quick theoretical lists to get started 
 
-rogue highestconsistent melle/ ranged damage
+### Classes 
 
-// shop system-
+	- Warrior: highest hit points 
+	- Wizard: use magic
+	- cleric: use support magic
+	- rogue:  highest consistent melee/ ranged damage
 
+### Leveling system
+	- Get stats based on classes
+	- Gain abilities based on level
 
-//
-equipment 
+### Equipements 
+	- Shop System	
+	- Equipements
+	- Consumables
 
-// consumable
-
-battle system- turm based 
-world level 
-		different mosters 
+### Game loop
+	- Battle system: turn-based
+	- World levels 
+	- Different monsters 
 		
-		
-common element for all classes 
-hit point, hp
+the design may change along the coding ...
