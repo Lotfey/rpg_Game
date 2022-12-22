@@ -2,8 +2,6 @@
 #include "statBlock.h"
 #include "pointWell.h"
 
-
-
 #include<memory> // for smart pointers std::make_unique
 #include<string>
 #include<cstdint> // uintxx_t
@@ -12,6 +10,7 @@
 typedef std::uint64_t expType;
 typedef std::uint16_t levelType;
 
+// inherited from statBock but uses pointWell functionalities via composition
 class playerCharacterDelegate :
     public statBlock
 {

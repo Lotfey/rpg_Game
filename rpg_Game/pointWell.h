@@ -28,7 +28,7 @@ public:
 	void increaseCurrent(wellType amount);
 
 	//deconstructor 
-	//~pointWell() = default;
+	~pointWell() = default;
 
 private:
 	// sheil will be included later on...

@@ -1,10 +1,8 @@
 #include "playerCharacterDelegate.h"
 
 
-// the constructor 
-
+// constructor 
 playerCharacterDelegate::playerCharacterDelegate():statBlock(0u,0u)
-
 {
 	mCurrentLevel = 1u;
 	mCurrentExperience = 0;
@@ -12,6 +10,7 @@ playerCharacterDelegate::playerCharacterDelegate():statBlock(0u,0u)
 	HPptr = std::make_unique<pointWell>();
 }
 
+//getters
 levelType playerCharacterDelegate::getLevel()
 {
 	return mCurrentLevel;
@@ -27,7 +26,7 @@ expType playerCharacterDelegate::getExperienceToNextLevel()
 	return mExpToNextLevel;
 }
 
-
+//methods
 void playerCharacterDelegate::gainExperience(expType gainedEXP)
 {
 	mCurrentExperience += gainedEXP;
@@ -35,8 +34,6 @@ void playerCharacterDelegate::gainExperience(expType gainedEXP)
 	// Keep leveling up as long as you gain experience
 	while (check_if_leveled()) {}
 }
-
-
 
 bool playerCharacterDelegate::check_if_leveled()
 {

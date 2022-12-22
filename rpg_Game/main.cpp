@@ -1,10 +1,8 @@
 #include<iostream>
 #include"playerCharacter.h"
 
-//include header class
 
-
-// main fuction of the software
+// Test the software functionalities
 int main()
 {
 	playerCharacter p1(new Wizard());
@@ -13,9 +11,9 @@ int main()
 	{
 		std::cout
 			<<p1.getClassName()
-			<< " Level "<< p1.getLevel()<<"\n"
+			<< "- Level "<< p1.getLevel()<<"\n"
 			<< "- Exp: " << p1.getCurrentExperience() << "/" << p1.getExperienceToNextLevel() << '\n'
-			<< "- HP: " << p1.getCurrentHp() << "/"<< p1.getMaxHp()<< '\n'
+			<< "- HP: "  << p1.getCurrentHp() << "/"<< p1.getMaxHp()<< '\n'
 			<< "- Strenght: " << p1.getStrenght() << '\n'
 			<< "- Intellect: " << p1.getIntellect() << '\n';
 
@@ -25,7 +23,6 @@ int main()
 			std::cout<<std::endl;
 		}
 	}
-
 
 
 	std::cin.get();

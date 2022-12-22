@@ -6,10 +6,12 @@
 #include"Cleric.h"
 #include"Rogue.h"
 
-// This class manage the other classes via class composition 
+// This class manage  other classes via class composition  while 
+// playerCharacterDelegate inherate from statBlock
 class playerCharacter
 {
 private:
+	// here i use the composition over inheretance 
 	playerCharacterDelegate* playerChrachterClass;
 
 public:
@@ -34,7 +36,7 @@ public:
 	void takeDamage(wellType amount);
 	void healHealth(wellType anount);
 
+	//deconstructor
 	~playerCharacter();
-
 };
 
