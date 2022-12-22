@@ -1,11 +1,20 @@
 #include "Wizard.h"
 
-Wizard::Wizard() :hp(BASEHP, BASEHP), statBlock(BASESTRENGHT, BASEINTELLECT)
+Wizard::Wizard() :playerCharacterDelegate()
 {
+	HPptr->setMax(BASEHP);
+	HPptr->increaseCurrent(BASEHP);
+	increaseStats(BASESTRENGHT, BASEINTELLECT);
 }
 
-void Wizard::LevelUp()
+std::string Wizard::getClassName()
 {
-	setMaxHp(HPGROWTH + getMaxHp());
-	increaseStats(STRENGHTGROWTH, INTELLECTGROWTH);
+	return std::string("Wizard ");
+}
+
+void Wizard::levelUp()
+{
+	HPptr->setMax((wellType)((BASEHP / 2.0) + HPptr->getMax()));
+	HPptr->increaseCurrent((wellType)(BASEHP / 2.0));
+	increaseStats((statType)((BASESTRENGHT + 1u) / 2.f), ((statType)(BASEINTELLECT + 1u) / 2.f));
 }

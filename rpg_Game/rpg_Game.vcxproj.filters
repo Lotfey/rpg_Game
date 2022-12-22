@@ -18,7 +18,22 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hp.cpp">
+    <ClCompile Include="poitWell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cleric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playerCharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playerCharacterDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rogue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Warrior.cpp">
@@ -27,42 +42,33 @@
     <ClCompile Include="Wizard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cleric.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Rogue.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="statBlock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LevelSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="hp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Warrior.h">
+    <ClInclude Include="pointWell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="statBlock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Wizard.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Cleric.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Rogue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="allClasses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LevelSystem.h">
+    <ClInclude Include="playerCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playerCharacterDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rogue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

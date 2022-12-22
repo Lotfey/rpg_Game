@@ -10,10 +10,6 @@ typedef std::uint16_t statType;
 
 class statBlock
 {
-private:
-	statType mStrength;
-	statType mIntellect;
-
 public:
 	//constructor for the struct
 	statBlock();
@@ -28,4 +24,7 @@ public:
 protected:
 	void increaseStats(statType s, statType i);
 
+private:
+	statType mStrength;
+	statType mIntellect;
 };
